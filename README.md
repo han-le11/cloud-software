@@ -1,6 +1,7 @@
 The goal is to implement and dockerize a web-based service leveraging FastAPI and MongoDB, then later deploy it to a Kubernetes cluster with the help of Kind.
 
 Repo structure:
+```
 fastapi-k8s
 └── src
     ├── Dockerfile
@@ -11,8 +12,9 @@ fastapi-k8s
     ├── persistent-volume.yaml
     ├── mongo.yaml
     ├── fastapi.yaml
-    
+
 └── manifests.zip 
+```
 
 The manifest files can be applied by using the following command:
 ```
